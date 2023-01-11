@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <meta name="discripition" content="imoveis" >
+    <meta name="author" content="João Oliver">
+    <title>CENA</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-1"></div><!--logo1-->
+            <div class="logo-2"></div><!--logo2-->
+            <div class="clear"></div>
+        </div><!--container-->
+    </header>
+
+    <section class="cover-form">
+        <div class="container bg">
+            <div class="form-container">
+                <form action="" id="form">
+                    <h2>PODE ACREDITAR, POR DENTRO É AINDA MAIS BONITO.</h2>
+                    <p>Nome Completo</p>
+                    <input type="text" id="nome" placeholder="Nome" class="nome required" oninput="nomeValidate()">
+                    <span class="span-required">Nome deve ter no mínimo 3 caracteres!</span>
+                    <p>E-mail</p>
+                    <input type="email" name="email" id="email" placeholder="Email" class="email required" oninput="emailValidate()">
+                    <span class="span-required">Email invalido!</span>
+                    <p>telefone</p>
+                    <input type="tel" autocomplete="off" maxlength="12" id="telefone" placeholder="telefone" class="Telefone required" oninput="telValidate()" >
+                    <span class="span-required">telefone deve ter ddd</span>
+                    <button type="submit">Enviar</button>
+                    <p>*Campos Obrigatorios</p>
+                </form>
+            </div> <!--form container-->
+            <div class="clear"></div>
+        </div> <!--container bg-->
+    </section> <!--cover form-->
+    <div class="clear"></div>
+    <section class="chamada">
+        <div class="icone-seta"></div>
+        <div>
+            <h2>MINHA CHAMADA PARA O EMPREENDIMENTO</h2>
+        </div>
+        <div>
+            <p>Alguma mensagem pra a chamada</p>
+        </div>
+    </section> <!--Chamada-->
+
+    <section class="mosaico">
+        <div class="container-mosaico">
+            <div class="flex-mosaico" style="flex-direction: row-reverse;">
+                <div style="background-image: url(/imagens/mosaico1.jpg); " class="img-1-mosaico">
+
+                </div><!--img mosaico-->
+                <div class="item-2-mosaico" >
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae justo eu sapien ultricies dignissim. Vestibulum feugiat interdum pharetra. Curabitur vulputate a lectus nec maximus. Quisque id interdum eros. Donec porta nibh eget diam consectetur fringilla. Proin in urna faucibus, volutpat enim a, maximus ipsum</p>
+                </div>
+            </div>
+        </div><!--container mosaico-->
+
+        <div class="container-mosaico">
+            <div class="flex-mosaico" >
+               
+                <div style="background-image: url(/imagens/mosaico1.jpg); " class="img-1-mosaico">
+
+                </div><!--img mosaico-->
+                <div class="item-2-mosaico" >
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae justo eu sapien ultricies dignissim. Vestibulum feugiat interdum pharetra. Curabitur vulputate a lectus nec maximus. Quisque id interdum eros. Donec porta nibh eget diam consectetur fringilla. Proin in urna faucibus, volutpat enim a, maximus ipsum</p>
+                </div>
+            </div>
+        </div><!--container mosaico-->
+
+        <div class="container-mosaico">
+            <div class="flex-mosaico" style="flex-direction: row-reverse;">
+                <div style="background-image: url(/imagens/mosaico3.jpg);" class="img-1-mosaico">
+
+                </div><!--img mosaico-->
+                <div class="item-2-mosaico">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae justo eu sapien ultricies dignissim. Vestibulum feugiat interdum pharetra. Curabitur vulputate a lectus nec maximus. Quisque id interdum eros. Donec porta nibh eget diam consectetur fringilla. Proin in urna faucibus, volutpat enim a, maximus ipsum</p>
+                </div>
+            </div>
+        </div><!--container mosaico-->
+
+        <div class="container-mosaico">
+            <div class="flex-mosaico" >
+
+                <div style="background-image: url(/imagens/mosaico1.jpg); " class="img-1-mosaico">
+
+                </div><!--img mosaico-->
+                <div class="item-2-mosaico" >
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae justo eu sapien ultricies dignissim. Vestibulum feugiat interdum pharetra. Curabitur vulputate a lectus nec maximus. Quisque id interdum eros. Donec porta nibh eget diam consectetur fringilla. Proin in urna faucibus, volutpat enim a, maximus ipsum</p>
+                </div>
+            </div>
+        </div><!--container mosaico-->
+    </section><!--morsaico-->
+    <section>
+        <footer class="roda-pe">
+            <img src="/imagens/logo1.png" alt="">
+        </footer>
+    </section>
+    
+</body>
+<script src="/JS/index.js"></script>
+</html>
